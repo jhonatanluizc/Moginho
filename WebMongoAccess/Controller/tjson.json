@@ -1,0 +1,19 @@
+{ 
+    "user_name": "users",
+    "schema": {
+    "nome ": {
+    "type": "string",
+    "require": "true",
+    "unique": "false",
+    "select": "true"
+    },"email": {
+    "type": "string",
+    "require": "true",
+    "unique": "true",
+    "select": "true"
+    },"senha": {
+    "type": "string",
+    "require": "true",
+    "unique": "false",
+    "select": "false"
+    }}}
